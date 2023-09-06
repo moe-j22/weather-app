@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8fd3fe;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #000; 
+}
+
+#city-form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#city-input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #007BFF; 
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#search-history {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#search-history div {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #Fddb53;
+    color: #000;
+    cursor: pointer;
+}
+
+#current-weather {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#current-weather img {
+    width: 50px;
+}
+
+#forecast {
+    text-align: center;
+}
+
+.weather-info {
+    margin: 10px;
+    padding: 10px;
+    background-color: #Fddb53;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.forecast-day {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #72bf6a;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
